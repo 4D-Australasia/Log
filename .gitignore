@@ -1,5 +1,27 @@
-# Object file
-*.o
+# Ignore everything at the root level
+/*
 
-# Ada Library Information
-*.ali
+# Except:
+!.gitignore
+!Resources
+!Project
+!Components
+!Plugins
+
+# You may want to include some of the following items.
+# If you do swap the # for and ! at that start of the line
+# optionally you should move it to the section above
+
+#Data 
+#Settings
+
+# Ignore these sub folders
+Project/DerivedData
+Project/BuildSettings
+
+Resources/Cache
+
+# Ignore everywhere.
+__MACOSX
+
+# End of File
